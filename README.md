@@ -149,7 +149,7 @@ Edge Functions
 
 Takes topic, description, slide count, theme
 
-Generates content via Lovable AI
+Generates content via AI
 
 Creates images for each slide
 
