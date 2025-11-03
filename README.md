@@ -9,6 +9,7 @@ What It Does
 This is a full-stack AI-powered presentation creation platform that allows users to automatically generate professional PowerPoint presentations using artificial intelligence. Users simply provide a topic, optional description, and slide count, and the AI creates complete presentations with relevant content and images.
 
 
+
 Core Features
 
 1. AI Presentation Generation
@@ -63,8 +64,8 @@ Download as PowerPoint (.pptx) format
 
 Preserves formatting, images, and themes
 
-
 Professional slide layouts
+
 
 Technology Stack
 
@@ -84,7 +85,8 @@ Shadcn UI components
 
 PptxGenJS for PowerPoint generation
 
-Backend (Lovable Cloud/Supabase)
+
+Backend (Supabase)
 
 PostgreSQL database with Row Level Security (RLS)
 
@@ -92,10 +94,10 @@ Supabase Auth for user authentication
 
 Edge Functions for serverless logic
 
-Lovable AI Gateway for AI generation (Google Gemini models)
+AI generation (Google Gemini models)
+
 
 AI Integration
-
 
 Google Gemini 2.5 Flash for content generation
 
@@ -104,6 +106,8 @@ Google Gemini 2.5 Flash Image Preview for image generation
 Structured output with tool calling
 
 Theme-specific prompting for consistent styling
+
+
 
 Database Schema
 
